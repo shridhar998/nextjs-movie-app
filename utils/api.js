@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_BEARER_TOKEN  = process.env.BEARER_TOKEN;
 
-const BASE_URL = 'http://api.themoviedb.org/3/discover/movie';
+const BASE_URL = 'https://api.themoviedb.org/3/discover/movie';
 
 export async function fetchMovies(isLoading) {
   try {
